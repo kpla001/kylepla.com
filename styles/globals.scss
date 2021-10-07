@@ -141,7 +141,7 @@ main {
   text-decoration: none;
   border-radius: 7px;
   transition: ease all 0.3s;
-  color: #fff;
+  color: inherit;
 }
 
 .links {
@@ -162,6 +162,15 @@ main {
     }
   }
 }
+
+.email {
+  background-color: #ea4335;
+  color: #fff;
+  i {
+    color: #fff;
+  }
+}
+
 .instagram {
   background: #f09433;
   background: -moz-linear-gradient(
@@ -205,6 +214,16 @@ main {
 
 .spotify {
   background-color: #1db954;
+  i {
+    color: #1db954;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+}
+
+.spotify-artist {
+  background-color: #4101f5;
 }
 
 @media (max-width: 600px) {

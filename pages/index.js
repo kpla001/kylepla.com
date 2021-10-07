@@ -43,14 +43,9 @@ export default function Home() {
 
         <div className="links">
             <ul>
-              <li className="instagram">
-                <a href="https://www.instagram.com/kyle__rip" className="link">
-                  <i className="fab fa-instagram"></i> Instagram
-                </a>
-              </li>
-              <li className="twitter">
-                <a href="https://twitter.com/KylePla" className="link">
-                  <i className="fab fa-twitter"></i> Twitter
+              <li className="email">
+                <a href="mailto:kyle.ri.pla@gmail.com" className="link">
+                <i className="far fa-envelope"></i> Send me an e-mail
                 </a>
               </li>
               <li className="linkedin">
@@ -58,14 +53,29 @@ export default function Home() {
                   <i className="fab fa-linkedin"></i> Linked<i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
+              <li className="twitter">
+                <a href="https://twitter.com/KylePla" className="link">
+                  <i className="fab fa-twitter"></i> Twitter
+                </a>
+              </li>
               <li className="github">
                 <a href="https://github.com/kpla001" className="link">
                   <i className="fab fa-github"></i> Github
                 </a>
               </li>
+              <li className="instagram">
+                <a href="https://www.instagram.com/kyle__rip" className="link">
+                  <i className="fab fa-instagram"></i> Instagram
+                </a>
+              </li>
               <li className="spotify">
+                <a href="https://open.spotify.com/user/1253012721?si=610aace52f304752" className="link">
+                  <i className="fab fa-spotify"></i> My Spotify Playlists
+                </a>
+              </li>
+              <li className="spotify-artist">
                 <a href="https://open.spotify.com/artist/6Ht4ILQE4RvOcH3zBsFt8x?si=sVUF544lT7CFexDcLY2mKQ&dl_branch=1" className="link">
-                  <i className="fab fa-spotify"></i> Listen on Spotify
+                  <i className="fab fa-spotify"></i> Listen to my music on Spotify
                 </a>
               </li>
 
