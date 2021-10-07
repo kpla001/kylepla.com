@@ -26,8 +26,8 @@ export default function Home() {
           className="photo"
           src='/placeholder.jpeg'
           alt='icon' 
-          width={200}
-          height={200}
+          width={275}
+          height={275}
           />
           
         <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
