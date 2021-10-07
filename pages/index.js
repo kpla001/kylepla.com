@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <>
+    <article>
       <Head>
         <title>Kyle R. I. Pla</title>
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
@@ -75,7 +75,7 @@ export default function Home() {
               </li>
               <li className="spotify-artist">
                 <a href="https://open.spotify.com/artist/6Ht4ILQE4RvOcH3zBsFt8x?si=sVUF544lT7CFexDcLY2mKQ&dl_branch=1" className="link">
-                  <i className="fab fa-spotify"></i> Listen to my music on Spotify
+                  <i className="fab fa-spotify"></i> Listen to me Spotify
                 </a>
               </li>
               <li className="soundcloud">
@@ -91,6 +91,6 @@ export default function Home() {
         </div>
       </main>
 
-    </>
+    </article>
   )
 }
