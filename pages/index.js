@@ -34,16 +34,21 @@ export default function Home() {
         <div className="card">
           Hello 👋 <br />Thank you for visiting my page. <br /> Feel free to browse through my links below <br />
           <i className="fas fa-long-arrow-alt-down fa-2x" ></i>
+        </div>
+
+        <div className="links">
+            <ul>
+              <li className="instagram">
+                <a href="https://www.instagram.com/kyle__rip" className="link">
+                  <i className="fab fa-instagram"></i> Instagram
+                </a>
+              </li>
+              
+            </ul>
+          </div>
 
 
         </div>
-        </div>
-
-        
-
-
-
-
       </main>
 
     </>
