@@ -23,10 +23,11 @@ export default function Home() {
       <main>
         <div className="wrap">
         <Image 
+          className="photo"
           src='/placeholder.jpeg'
           alt='icon' 
-          width={275}
-          height={275}
+          width={150}
+          height={150}
           />
           
         <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
@@ -60,7 +61,7 @@ export default function Home() {
               </li>
               <li className="spotify">
                 <a href="https://open.spotify.com/artist/6Ht4ILQE4RvOcH3zBsFt8x?si=sVUF544lT7CFexDcLY2mKQ&dl_branch=1" className="link">
-                  <i className="fab fa-spotify"></i> Listen to me on Spotify
+                  <i className="fab fa-spotify"></i> Listen on Spotify
                 </a>
               </li>
 
