@@ -78,7 +78,11 @@ export default function Home() {
                   <i className="fab fa-spotify"></i> Listen to my music on Spotify
                 </a>
               </li>
-
+              <li className="soundcloud">
+                <a href="https://soundcloud.com/user-73091524-35879270" className="link">
+                <i class="fab fa-soundcloud"></i> SoundCloud
+                </a>
+              </li>
 
             </ul>
           </div>
