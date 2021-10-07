@@ -20,20 +20,24 @@ export default function Home() {
         />
       </Head>
 
+
       <main>
         <div className="wrap">
         <Image 
           className="photo"
           src='/placeholder.jpeg'
           alt='icon' 
-          width={275}
-          height={275}
+          width={300}
+          height={300}
           />
-          
-        <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
-        <h4 className="profile-title">Software Developer | Audio Engineer</h4>
+
+        <section className="profile">
+          <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
+          <h4 className="profile-title">Software Developer | Electronic Music Producer</h4>
+        </section>
+
         <div className="card">
-          Hello 👋 <br />Thank you for visiting my page. <br /> Feel free to browse through my links below <br />
+          Hello 👋 <br />Thank you for visiting my website. <br /> Feel free to browse through my links below <br />
           <i className="fas fa-long-arrow-alt-down fa-2x" ></i>
         </div>
 
