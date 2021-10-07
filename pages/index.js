@@ -43,7 +43,28 @@ export default function Home() {
                   <i className="fab fa-instagram"></i> Instagram
                 </a>
               </li>
-              
+              <li className="twitter">
+                <a href="https://twitter.com/KylePla" className="link">
+                  <i className="fab fa-twitter"></i> Twitter
+                </a>
+              </li>
+              <li className="linkedin">
+                <a href="https://linkedin.com/in/kylepla" className="link">
+                  <i className="fab fa-linkedin"></i> Linked<i className="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li className="github">
+                <a href="https://github.com/kpla001" className="link">
+                  <i className="fab fa-github"></i> Github
+                </a>
+              </li>
+              <li className="spotify">
+                <a href="https://open.spotify.com/artist/6Ht4ILQE4RvOcH3zBsFt8x?si=sVUF544lT7CFexDcLY2mKQ&dl_branch=1" className="link">
+                  <i className="fab fa-spotify"></i> Listen to me on Spotify
+                </a>
+              </li>
+
+
             </ul>
           </div>
 
