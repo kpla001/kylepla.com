@@ -80,7 +80,7 @@ export default function Home() {
               </li>
               <li className="soundcloud">
                 <a href="https://soundcloud.com/user-73091524-35879270" className="link">
-                <i class="fab fa-soundcloud"></i> SoundCloud
+                <i className="fab fa-soundcloud"></i> SoundCloud
                 </a>
               </li>
 
