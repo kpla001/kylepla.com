@@ -266,6 +266,17 @@ li:active {
   background-color: #4101f5;
 }
 
+.copyright-text {
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2a343981;
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

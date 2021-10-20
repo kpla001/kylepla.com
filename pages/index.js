@@ -11,13 +11,8 @@ export default function Home() {
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
         {/* <script src="https://kit.fontawesome.com/92716430d3.js" crossOrigin="anonymous"></script> */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
       </Head>
 
 
@@ -87,9 +82,13 @@ export default function Home() {
             </ul>
           </div>
 
-
+          
         </div>
       </main>
+        <a href="https://github.com/kpla001/kylepla.com" className="copyright-text">
+            View this code on Github {''}
+            <i className="fab fa-github-alt"></i> 
+          </a>
 
     </article>
   )
