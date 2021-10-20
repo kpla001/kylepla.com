@@ -10,6 +10,19 @@ export default function Home() {
         <title>Kyle R. I. Pla</title>
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-11BLYJLS9K"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-11BLYJLS9K');
+            `,
+          }}
+        />
+
         {/* <script src="https://kit.fontawesome.com/92716430d3.js" crossOrigin="anonymous"></script> */}
         <link
           rel="stylesheet"
