@@ -84,11 +84,18 @@ export default function Home() {
                 <i className="fab fa-soundcloud"></i> SoundCloud
                 </a>
               </li>
-
             </ul>
           </div>
 
-          
+          <iframe
+            className="calendly"
+            src="https://calendly.com/kylepla/15-60min"
+            width="100%"
+            height="950"
+            scrolling="no"
+            frameBorder="0"
+          ></iframe>
+
         </div>
       </main>
         <a href="https://github.com/kpla001/kylepla.com" className="copyright-text">
