@@ -10,7 +10,7 @@ export default function Home() {
         <title>Kyle R. I. Pla</title>
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-11BLYJLS9K"></script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG_ID}`}></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -18,7 +18,7 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'G-11BLYJLS9K');
+            gtag('config', ${process.env.GTAG_ID});
             `,
           }}
         />
