@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-
+const g_tag = process.env.GTAG_ID;
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <title>Kyle R. I. Pla</title>
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-11BLYJLS9K`}></script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${g_tag}`}></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -18,7 +18,7 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'G-11BLYJLS9K');
+            gtag('config', '${g_tag}');
             `,
           }}
         />
