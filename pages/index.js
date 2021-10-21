@@ -18,7 +18,7 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', G-11BLYJLS9K);
+            gtag('config', 'G-11BLYJLS9K');
             `,
           }}
         />
