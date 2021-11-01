@@ -39,10 +39,10 @@ export default function Home() {
         <div className="wrap">
         <Image 
           className="photo"
-          src='/placeholder.jpeg'
+          src='/profile-photo.png'
           alt='icon' 
-          width={300}
-          height={300}
+          width={414.83}
+          height={497.5}
           />
 
         <section className="profile">
