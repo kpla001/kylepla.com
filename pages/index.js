@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <article>
+    <div id="landing-page">
       <Head>
         <title>Kyle R. I. Pla</title>
         <meta name="description" content="Kyle R. I. Pla - Full Stack Developer" />
@@ -57,6 +57,13 @@ export default function Home() {
 
         <div className="links">
             <ul>
+            <li className="email">
+              <Link href="/resume" > 
+                <a className="link"> View my resume
+                <i className="far fa-envelope"></i> 
+                </a>
+              </Link>
+              </li>
               <li className="email">
                 <a href="mailto:kyle.ri.pla@gmail.com" className="link">
                 <i className="far fa-envelope"></i> Send me an e-mail
@@ -116,6 +123,6 @@ export default function Home() {
             <i className="fab fa-github-alt"></i> 
           </a>
 
-    </article>
+    </div>
   )
 }
