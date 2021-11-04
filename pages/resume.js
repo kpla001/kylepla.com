@@ -53,11 +53,12 @@ export default function Resume() {
             <section>
                 <article>
                     <div className="sectionTitle">
-                        <h1>Personal Profile</h1>
+                        <h1>Profile Summary</h1>
                     </div>
                     
                     <div className="sectionContent">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                        <p>Full-stack web developer with a background in banking and a passion for technology and creating, looking to expand expertise in web-based programming languages, frameworks, and applications—while helping organizations drive client conversions via website engagement, as well as simplifying internal business procedures through effective software implementation.
+                        </p>
                     </div>
                 </article>
                 <div className="clear"></div>
@@ -66,26 +67,55 @@ export default function Resume() {
             
             <section>
                 <div className="sectionTitle">
-                    <h1>Work Experience</h1>
+                    <h1>Experience</h1>
                 </div>
                 
                 <div className="sectionContent">
                     <article>
-                        <h2>Job Title at Company</h2>
-                        <p className="subDetails">April 2011 - Present</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                        <h2>Commercial Loan QC Analyst at BMO Harris Bank</h2>
+                        <h4>Chicago, Illinois</h4>
+                        <p className="subDetails">March 2021 – June 2021</p> 
+                        <p>• Exercised quality control on syndicated / bilateral loans, for BMO Harris Bank’s corporate & commercial lending segment, which has over $545 billion in assets</p>
+                        <p>• Programmed remittance instructions into the Loan IQ platform in order to maintain data accuracy and ensure timely receipt of scheduled loan payments from commercial clients through automated system</p>
+                        <p>• Delivered meticulous attention to detail in reviewing legal credit documents for $10 million – $1 billion loans, to ensure consistency with configurations in Loan IQ database</p>
+                        <p>• Liaised between BMO Harris, other agent banks, and commercial borrowers to verify highly confidential remittance instructions and account details for multi million dollar wire payments</p>
+                        <p>• Constructed weekly reporting on syndicated loans for bank analysts and managing directors and helped foster rapport with internal business partners</p>
+                        <br/>
                     </article>
                     
                     <article>
-                        <h2>Job Title at Company</h2>
-                        <p className="subDetails">Janruary 2007 - March 2011</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                        <h2>Credit Product Manager at J.P. Morgan Chase</h2>
+                        <h4>Columbus, Ohio</h4>
+                        <p className="subDetails">February 2018 – November 2019</p>
+                        <p>• Managed suite of commercial real estate and term loan products for Chase’s Business Banking Segment, which originates over $600 million per year in new loans for small to medium sized businesses</p>
+                        <p>• Analyzed credit account data and product metrics for $13 billion  loan portfolio to identify trends and opportunities for the business</p>
+                        <p>• Designed promotional offers which allowed Chase to expand into multiple new markets in Boston, Philadelphia, and D.C.</p>
+                        <p>• Drove 7% in annual portfolio growth by presenting monthly business metrics to Chase executives for strategic decision making</p>
+                        <p>• Directed initiative that reduced business expenses by 2% through in-depth analysis and simplification of all loan fees</p>
+                        <p>• Developed training materials and delivered presentations on various finance related topics to audience of over 1,600 bankers across Chase’s national footprint, which drove decrease in customer dissatisfaction rates by 4%</p>
+                        <br/>
                     </article>
                     
+                    
                     <article>
-                        <h2>Job Title at Company</h2>
-                        <p className="subDetails">October 2004 - December 2006</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                        <h2>Business Relationship Mgr. at J.P. Morgan Chase</h2>
+                        <h4>Miami, Florida</h4>
+                        <p className="subDetails">June 2015 – February 2018</p>
+                        <p>• Managed portfolio of over 90 business clients by tending to their ongoing banking needs and promoting credit solutions</p>
+                        <p>• Delivered $1.5 million in new loans to business clients, utilizing finance and risk management acumen to identify opportunities</p>
+                        <p>• Created 30% in additional revenue for business clients through implementation of credit card processing capabilities</p>
+                        <p>• Increased deposits by $10 million by serving as a trusted advisor to local community of small to medium sized businesses with up to $5 million in annual revenues</p>
+                        <p>• Data mined prospect lists to assist management in identifying viable business opportunities as the sole intern for five different markets, contributing to 8% increase in deal pipeline in 2015</p>
+                        <br/>
+                    </article>
+                    <article>
+                        <h2>Customer Account Associate at NextEra Energy</h2>
+                        <h4>Miami, Florida</h4>
+                        <p className="subDetails">June 2014 – June 2015</p>
+                        <p>• Led internal partners in field services, operations, and customer affairs divisions across the largest power company in the U.S.</p>
+                        <p>• Resolved an average of 70 calls per day through employment of internal procedures and enhanced customer service tactics</p>
+                        <p>• Managed customer satisfaction rate of 98% by consistently solving customer issues such as power outages and billing concerns</p>
+                        <p>• Consistently met efficiency benchmark of 3 minutes per call through effective implementation of company protocols </p>
                     </article>
                 </div>
                 <div className="clear"></div>
@@ -99,14 +129,15 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                     <ul className="keySkills">
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
-                        <li>A Key Skill</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>NextJS</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
                     </ul>
                 </div>
                 <div className="clear"></div>
