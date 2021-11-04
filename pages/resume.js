@@ -150,16 +150,25 @@ export default function Resume() {
                 </div>
                 
                 <div className="sectionContent">
+                <article>
+                        <h2>Ironhack</h2>
+                        <h4>Miami, Florida</h4>
+                        <p className="subDetails">Full-stack Web Development</p>
+                        <br/>
+                    </article>
                     <article>
-                        <h2>College/University</h2>
-                        <p className="subDetails">Qualification</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+                        <h2>Florida International University</h2>
+                        <h4>Miami, Florida</h4>
+                        <p className="subDetails">Master of Science (M.S.), Finance</p>
+                        <br/>
                     </article>
                     
                     <article>
-                        <h2>College/University</h2>
-                        <p className="subDetails">Qualification</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+                        <h2>Florida International University</h2>
+                        <h4>Miami, Florida</h4>
+                        <p className="subDetails">Bachelor of Business Administration (B.B.A)</p>
+                        <p>Majors: Finance, Marketing </p>
+                        <br/>
                     </article>
                 </div>
                 <div className="clear"></div>
