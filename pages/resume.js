@@ -98,7 +98,7 @@ export default function Resume() {
                     
                     
                     <article>
-                        <h2>Business Relationship Mgr. at J.P. Morgan Chase</h2>
+                        <h2>Relationship Manager at J.P. Morgan Chase</h2>
                         <h4>Miami, Florida</h4>
                         <p className="subDetails">June 2015 – February 2018</p>
                         <p>• Managed portfolio of over 90 business clients by tending to their ongoing banking needs and promoting credit solutions</p>
