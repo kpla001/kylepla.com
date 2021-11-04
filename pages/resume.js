@@ -72,7 +72,7 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                     <article>
-                        <h2>Commercial Loan QC Analyst at BMO Harris Bank</h2>
+                        <h2>Commercial Loan QC Analyst at BMO Harris</h2>
                         <h4>Chicago, Illinois</h4>
                         <p className="subDetails">March 2021 – June 2021</p> 
                         <p>• Exercised quality control on syndicated / bilateral loans, for BMO Harris Bank’s corporate & commercial lending segment, which has over $545 billion in assets</p>
