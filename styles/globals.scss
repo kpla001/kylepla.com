@@ -189,6 +189,11 @@ li:active {
   border-color: #fff;
 }
 
+.resume {
+  background-color: #f0bc20;
+  color: #fff;
+}
+
 .email {
   background-color: #ea4335;
   color: #fff;
@@ -412,6 +417,7 @@ html {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    transform: none;
   }
 
   article,

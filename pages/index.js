@@ -57,10 +57,12 @@ export default function Home() {
 
         <div className="links">
             <ul>
-            <li className="email">
+            <li className="resume">
               <Link href="/resume" > 
-                <a className="link"> View my resume
-                <i className="far fa-envelope"></i> 
+                <a className="link"> 
+                <i className="fas fa-file"></i>
+                <span> </span>
+                View my resume
                 </a>
               </Link>
               </li>
