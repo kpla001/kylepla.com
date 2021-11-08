@@ -164,7 +164,7 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                 <article>
-                        <h2>Full Stack Web Development - Bootcamp Graduate </h2>
+                        <h2>Web Development - Bootcamp Graduate </h2>
                         <h4>
                             <a className="resumeOrganizations" href="hhttps://www.ironhack.com/en">
                                {`Ironhack `}
