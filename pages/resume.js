@@ -50,7 +50,7 @@ export default function Resume() {
                     </div>
                     
                     <div className="sectionContent">
-                        <p>Full-stack web developer with a background in banking and a passion for tech, looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to to help organizations drive client conversions via website engagement, as well as simplify their internal business procedures through effective software implementation.
+                        <p>Full-stack web developer with a background in banking and a passion for tech, continuously looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to to help organizations drive client conversions via website engagement, as well as simplify their internal business procedures through effective software implementation.
                         </p>
                     </div>
                 </article>
@@ -67,7 +67,7 @@ export default function Resume() {
                     <article>
                         <h2>Commercial Loan QC Analyst</h2>
                         <h4>
-                            <a href="https://commercial.bmoharris.com/en/">
+                            <a className="resumeOrganizations" href="https://commercial.bmoharris.com/en/">
                                {`BMO Harris Bank `}
                             </a>
                             {`▪ Chicago, Illinois`}
@@ -84,10 +84,10 @@ export default function Resume() {
                     <article>
                         <h2>Credit Product Manager</h2>
                         <h4>
-                            <a href="https://www.jpmorganchase.com/">
+                            <a className="resumeOrganizations" href="https://www.jpmorganchase.com/">
                                {`J.P.Morgan Chase & Co. `}
                             </a>
-                            {`▪ Columbus, Ohio`}
+                            {`▪  Columbus, Ohio`}
                         </h4>
                         <p className="subDetails">February 2018 – November 2019</p>
                         <p>• Managed suite of commercial real estate and term loan products for Chase’s Business Banking Segment, which originates over $600 million per year in new loans for small to medium sized businesses</p>
@@ -103,7 +103,7 @@ export default function Resume() {
                     <article>
                         <h2>Business Relationship Manager</h2>
                         <h4>
-                            <a href="https://www.jpmorganchase.com/">
+                            <a className="resumeOrganizations" href="https://www.jpmorganchase.com/">
                                {`J.P.Morgan Chase & Co. `}
                             </a>
                             {`▪ Miami, Florida`}
@@ -119,10 +119,10 @@ export default function Resume() {
                     <article>
                         <h2>Customer Account Associate</h2>
                         <h4>
-                            <a href="https://www.fpl.com/about/company-profile.html">
+                            <a className="resumeOrganizations" href="https://www.fpl.com/about/company-profile.html">
                                {`NextEra Energy Inc. (FPL) `}
                             </a>
-                            {`▪ Miami, Florida`}
+                            {`▪  Miami, Florida`}
                         </h4>
                         <p className="subDetails">June 2014 – June 2015</p>
                         <p>• Led internal partners in field services, operations, and customer affairs divisions across the largest power company in the U.S.</p>
@@ -142,13 +142,13 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                     <ul className="keySkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
                         <li>JavaScript</li>
                         <li>ReactJS</li>
                         <li>NodeJS</li>
                         <li>ExpressJS</li>
                         <li>NextJS</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
                         <li>MongoDB</li>
                         <li>PostgreSQL</li>
                     </ul>
@@ -164,22 +164,37 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                 <article>
-                        <h2>Ironhack</h2>
-                        <h4>Miami, Florida</h4>
-                        <p className="subDetails">Full-stack Web Development</p>
+                        <h2>Full Stack Web Development - Bootcamp Graduate </h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="hhttps://www.ironhack.com/en">
+                               {`Ironhack `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">June 2021 – November 2021</p>
                         <br/>
                     </article>
                     <article>
-                        <h2>Florida International University</h2>
-                        <h4>Miami, Florida</h4>
-                        <p className="subDetails">Master of Science (M.S.), Finance</p>
+                        <h2>Master of Science (M.S.), Finance</h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="https://www.fiu.edu">
+                               {`Florida International University `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">August 2016 – August 2017</p>
                         <br/>
                     </article>
                     
                     <article>
-                        <h2>Florida International University</h2>
-                        <h4>Miami, Florida</h4>
-                        <p className="subDetails">Bachelor of Business Administration (B.B.A)</p>
+                        <h2>{`Bachelor's of Business Administration (B.B.A.)`}</h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="https://www.fiu.edu">
+                            {`Florida International University `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">August 2012 – May 2016</p>
                         <p>Majors: Finance, Marketing </p>
                         <br/>
                     </article>
@@ -191,5 +206,5 @@ export default function Resume() {
     </div>
     </body>
 </div>
-  )
+)
 }
