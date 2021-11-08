@@ -17,13 +17,6 @@ export default function Resume() {
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'/>
 
 
-    <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
     </Head>
     <body id="top">
     <div id="cv" className="instaFade">
@@ -34,7 +27,7 @@ export default function Resume() {
             
             <div id="name">
                 <h1 className="quickFade delayTwo">Kyle R. I. Pla</h1>
-                <h2 className="quickFade delayThree">Full-stack Web Developer</h2>
+                <h2 className="quickFade delayThree">Full-stack Developer</h2>
             </div>
             
             <div id="contactDetails" className="quickFade delayFour">
@@ -57,7 +50,7 @@ export default function Resume() {
                     </div>
                     
                     <div className="sectionContent">
-                        <p>Full-stack web developer with a background in banking and a passion for technology and creating, looking to expand expertise in web-based programming languages, frameworks, and applications—while helping organizations drive client conversions via website engagement, as well as simplifying internal business procedures through effective software implementation.
+                        <p>Full-stack web developer with a background in banking and a passion for tech, looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to to help organizations drive client conversions via website engagement, as well as simplify their internal business procedures through effective software implementation.
                         </p>
                     </div>
                 </article>
@@ -72,9 +65,14 @@ export default function Resume() {
                 
                 <div className="sectionContent">
                     <article>
-                        <h2>Commercial Loan QC Analyst at BMO Harris</h2>
-                        <h4>Chicago, Illinois</h4>
-                        <p className="subDetails">March 2021 – June 2021</p> 
+                        <h2>Commercial Loan QC Analyst</h2>
+                        <h4>
+                            <a href="https://commercial.bmoharris.com/en/">
+                               {`BMO Harris Bank `}
+                            </a>
+                            {`▪ Chicago, Illinois`}
+                        </h4>
+                        <p className="subDetails">March 2021 – June 2021 (Contract)</p> 
                         <p>• Exercised quality control on syndicated / bilateral loans, for BMO Harris Bank’s corporate & commercial lending segment, which has over $545 billion in assets</p>
                         <p>• Programmed remittance instructions into the Loan IQ platform in order to maintain data accuracy and ensure timely receipt of scheduled loan payments from commercial clients through automated system</p>
                         <p>• Delivered meticulous attention to detail in reviewing legal credit documents for $10 million – $1 billion loans, to ensure consistency with configurations in Loan IQ database</p>
@@ -84,8 +82,13 @@ export default function Resume() {
                     </article>
                     
                     <article>
-                        <h2>Credit Product Manager at J.P. Morgan Chase</h2>
-                        <h4>Columbus, Ohio</h4>
+                        <h2>Credit Product Manager</h2>
+                        <h4>
+                            <a href="https://www.jpmorganchase.com/">
+                               {`J.P.Morgan Chase & Co. `}
+                            </a>
+                            {`▪ Columbus, Ohio`}
+                        </h4>
                         <p className="subDetails">February 2018 – November 2019</p>
                         <p>• Managed suite of commercial real estate and term loan products for Chase’s Business Banking Segment, which originates over $600 million per year in new loans for small to medium sized businesses</p>
                         <p>• Analyzed credit account data and product metrics for $13 billion  loan portfolio to identify trends and opportunities for the business</p>
@@ -98,8 +101,13 @@ export default function Resume() {
                     
                     
                     <article>
-                        <h2>Relationship Manager at J.P. Morgan Chase</h2>
-                        <h4>Miami, Florida</h4>
+                        <h2>Business Relationship Manager</h2>
+                        <h4>
+                            <a href="https://www.jpmorganchase.com/">
+                               {`J.P.Morgan Chase & Co. `}
+                            </a>
+                            {`▪ Miami, Florida`}
+                        </h4>
                         <p className="subDetails">June 2015 – February 2018</p>
                         <p>• Managed portfolio of over 90 business clients by tending to their ongoing banking needs and promoting credit solutions</p>
                         <p>• Delivered $1.5 million in new loans to business clients, utilizing finance and risk management acumen to identify opportunities</p>
@@ -109,8 +117,13 @@ export default function Resume() {
                         <br/>
                     </article>
                     <article>
-                        <h2>Customer Account Associate at NextEra Energy</h2>
-                        <h4>Miami, Florida</h4>
+                        <h2>Customer Account Associate</h2>
+                        <h4>
+                            <a href="https://www.fpl.com/about/company-profile.html">
+                               {`NextEra Energy Inc. (FPL) `}
+                            </a>
+                            {`▪ Miami, Florida`}
+                        </h4>
                         <p className="subDetails">June 2014 – June 2015</p>
                         <p>• Led internal partners in field services, operations, and customer affairs divisions across the largest power company in the U.S.</p>
                         <p>• Resolved an average of 70 calls per day through employment of internal procedures and enhanced customer service tactics</p>
