@@ -1,12 +1,8 @@
+#resume-page body,
 html {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background-color: #181818;
+  background: #181818;
 }
+
 #resume-page {
   html,
   body,
@@ -83,7 +79,6 @@ html {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-    transform: none;
   }
 
   article,
@@ -102,7 +97,6 @@ html {
 
   html,
   body {
-    background: #181818;
     font-family: "Lato", helvetica, arial, sans-serif;
     font-size: 16px;
     color: #222;

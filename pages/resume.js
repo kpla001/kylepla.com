@@ -18,7 +18,7 @@ export default function Resume() {
 
 
     </Head>
-    <body id="top">
+    <body id="top" className="resumePage">
     <div id="cv" className="instaFade">
         <div className="mainDetails">
             {/* <div id="headshot" className="quickFade">
@@ -178,7 +178,7 @@ export default function Resume() {
                         <h2>Master of Science (M.S.), Finance</h2>
                         <h4>
                             <a className="resumeOrganizations" href="https://www.fiu.edu">
-                               {`Florida International University `}
+                                {`Florida International University `}
                             </a>
                             {`▪  Miami, Florida`}
                         </h4>
