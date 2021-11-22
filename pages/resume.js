@@ -18,7 +18,7 @@ export default function Resume() {
 
 
     </Head>
-    <body id="top">
+    <body id="top" className="resumePage">
     <div id="cv" className="instaFade">
         <div className="mainDetails">
             {/* <div id="headshot" className="quickFade">
