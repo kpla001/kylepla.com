@@ -57,14 +57,23 @@ export default function Home() {
 
         <div className="links">
             <ul>
-            <li className="resume">
-              <Link href="/resume" > 
-                <a className="link"> 
-                <i className="fas fa-file"></i>
-                <span> </span>
-                View my resume
-                </a>
-              </Link>
+              <li className="resume">
+                <Link href="/resume" > 
+                  <a className="link"> 
+                    <i className="fas fa-file"></i>
+                    <span> </span>
+                    View my resume
+                  </a>
+                </Link>
+              </li>
+              <li className="portfolio">
+                <Link href="/portfolio" > 
+                  <a className="link"> 
+                    <i className="fas fa-file"></i>
+                    <span> </span>
+                    Browse my portfolio
+                  </a>
+                </Link>
               </li>
               <li className="email">
                 <a href="mailto:kyle.ri.pla@gmail.com" className="link">
