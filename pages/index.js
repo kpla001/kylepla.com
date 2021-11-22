@@ -69,7 +69,7 @@ export default function Home() {
               <li className="portfolio">
                 <Link href="/portfolio" > 
                   <a className="link"> 
-                    <i className="fas fa-file"></i>
+                  <i className="fas fa-search"></i>
                     <span> </span>
                     Browse my portfolio
                   </a>
