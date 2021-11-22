@@ -178,7 +178,7 @@ export default function Resume() {
                         <h2>Master of Science (M.S.), Finance</h2>
                         <h4>
                             <a className="resumeOrganizations" href="https://www.fiu.edu">
-                               {`Florida International University `}
+                                {`Florida International University `}
                             </a>
                             {`▪  Miami, Florida`}
                         </h4>
