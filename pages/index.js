@@ -47,7 +47,7 @@ export default function Home() {
 
         <section className="profile">
           <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
-          <h4 className="profile-title">Software Developer | Electronic Music Producer</h4>
+          <h4 className="profile-title">Full-stack Developer | Electronic Music Producer</h4>
         </section>
 
         <div className="card">

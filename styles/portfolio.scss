@@ -58,6 +58,32 @@ main {
   min-width: 100vw;
 }
 
+div.projectLinks {
+  margin: 1em 0 2em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#portfolio-page .githubLink {
+  background-color: #171515;
+  padding: 1em 1.9em 1em 1.9em;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: ease all 0.3s;
+  color: #fff;
+}
+
+#portfolio-page .demoLink {
+  background-color: #ea4335;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: ease all 0.3s;
+  color: inherit;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
