@@ -12,24 +12,35 @@ export default function Portfolio() {
                 <meta name="viewport" content="width=device-width"/>
                 <meta name="description" content="Kyle Robert Isiah Pla - Development Portfolio"/>
                 <meta charset="UTF-8"/> 
+
+
             </Head>
+            <body id="portfolioPage" className="portfolioPage">
+                <div className="portfolioMain">
+                    <section className="portfolioHeader">
+                        <h1 className="portfolioTitle">Projects</h1>
+                    </section>
+                    <main>
+                    <div className="portfolioWrap">
+                    <h4 className="projectTitle">Project 1: Free Lunch</h4>
+                    <Image 
+                    className="screenShot"
+                    src='/FreeLunchScreenShot.png'
+                    alt='icon' 
+                    width={3524 /4}
+                    height={1880 /4}
+                    />
 
-    <body className="portfolioWrap">
-        <main className="portfolioMain">
-                <section className="profile">
-                <h1 className="portfolioTitle">Projects</h1>
-                <h4 className="projectTitle">Software Developer | Electronic Music Producer</h4>
-                </section>
 
-                
+                    <div className="links">
 
-                <div className="links">
-                    <ul>
-                    
-                    </ul>
+                    </div>
+
+                    </div>
+                    </main>
                 </div>
-        </main>
-    </body>
-</div>
+            </body>
+
+            </div>
     )
 }
