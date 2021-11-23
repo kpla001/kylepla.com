@@ -47,7 +47,7 @@ export default function Home() {
 
         <section className="profile">
           <h1 className="profile-name">Kyle Robert Isiah Pla </h1>
-          <h4 className="profile-title">Software Developer | Electronic Music Producer</h4>
+          <h4 className="profile-title">Full-stack Developer | Electronic Music Producer</h4>
         </section>
 
         <div className="card">
@@ -57,14 +57,23 @@ export default function Home() {
 
         <div className="links">
             <ul>
-            <li className="resume">
-              <Link href="/resume" > 
-                <a className="link"> 
-                <i className="fas fa-file"></i>
-                <span> </span>
-                View my resume
-                </a>
-              </Link>
+              <li className="resume">
+                <Link href="/resume" > 
+                  <a className="link"> 
+                    <i className="fas fa-file"></i>
+                    <span> </span>
+                    View my resume
+                  </a>
+                </Link>
+              </li>
+              <li className="portfolio">
+                <Link href="/portfolio" > 
+                  <a className="link"> 
+                  <i className="fas fa-search"></i>
+                    <span> </span>
+                    Browse my portfolio
+                  </a>
+                </Link>
               </li>
               <li className="email">
                 <a href="mailto:kyle.ri.pla@gmail.com" className="link">

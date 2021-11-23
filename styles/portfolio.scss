@@ -1,0 +1,171 @@
+#portfolio-page article {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  color: #fff;
+  background: linear-gradient(-45deg, #cecece, #616161, #1a1a1a);
+  background-size: 300% 300%;
+  -webkit-animation: Gradient 8s ease infinite;
+  -moz-animation: Gradient 8s ease infinite;
+  animation: Gradient 8s ease infinite;
+}
+
+main {
+  margin-top: 4vh;
+  color: white;
+  display: grid;
+  flex-direction: column;
+}
+
+#portfolio-page .homeButton {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #2a3033;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.portfolioWrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 320px;
+  place-self: center;
+  align-items: center;
+  width: 100%;
+}
+
+.screenShot {
+  border-radius: 15px;
+  max-width: 150%;
+}
+
+.portfolioTitle {
+  display: block;
+  -webkit-box-reflect: below -1vh linear-gradient(transparent, rgba(255, 255, 255, 0.11));
+  margin-top: 8vh;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.ironhackTitle {
+  display: block;
+  text-align: center;
+  margin: 3vh 0 0.5vh 0;
+  font-size: 1.2rem;
+  place-self: center;
+}
+
+.projectTitle {
+  display: block;
+  // margin-top: 5vh;
+  text-align: center;
+  margin-bottom: 2vh;
+  font-size: 1.5rem;
+  place-self: center;
+  min-width: 100vw;
+}
+
+div.projectLinks {
+  margin: 1.5em 0 2em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#portfolio-page .githubLink {
+  background-color: #171515;
+  font-weight: bold;
+  padding: 1em 1.9em 1em 1.9em;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: ease all 0.3s;
+  color: #fff;
+}
+
+#portfolio-page .demoLink {
+  background-color: #ea4335;
+  font-weight: bold;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: ease all 0.3s;
+  color: inherit;
+}
+
+#portfolio-page hr {
+  display: block;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.075);
+}
+
+#portfolio-page .footer {
+  bottom: 0;
+  position: fixed;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2a3439c2;
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

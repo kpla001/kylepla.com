@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Resume() {
   return (
-<div id="resume-page">
+<div id="resume-page" className="resumePage">
     <Head>
     <title>Kyle Pla - Resume</title>
 

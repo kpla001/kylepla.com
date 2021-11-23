@@ -62,10 +62,6 @@ caption {
   vertical-align: baseline;
 }
 
-// html {
-//   background: #181818;
-// }
-
 #landing-page html {
   margin: 0;
   padding: 0;
@@ -159,7 +155,7 @@ main {
   box-shadow: 0px 8px 8px black;
 }
 
-.link {
+#landing-page .link {
   padding: 14px 0 14px 0;
   display: block;
   text-align: center;
@@ -201,7 +197,12 @@ main {
 }
 
 .resume {
-  background-color: #2164f4;
+  background-color: #09d3d3;
+  color: #fff;
+}
+
+.portfolio {
+  background-color: #63e8b9;
   color: #fff;
 }
 
