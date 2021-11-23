@@ -22,6 +22,9 @@ export default function Portfolio() {
 
             </Head>
             <article id="portfolioPage" className="portfolioPage">
+                {/* <a href="https://www.kylepla.com/" className="homeButton">
+                    <i className="fas fa-home"></i>
+                </a> */}
                 <div className="portfolioMain">
 
                     <section className="portfolioHeader">
@@ -30,6 +33,7 @@ export default function Portfolio() {
                     <main>
 
                     <div className="portfolioWrap">
+                        <h4 className ="ironhackTitle">Ironhack</h4>
                         <h4 className="projectTitle"> Project 1: Free Lunch</h4>
                         <Image 
                         className="screenShot"
@@ -50,6 +54,7 @@ export default function Portfolio() {
                         </div>
                         <hr/>
                         <br/>
+                        <h4 className ="ironhackTitle">Ironhack</h4>
                         <h4 className="projectTitle"> Project 2: Song Bird</h4>
                         <Image 
                         className="screenShot"
@@ -68,10 +73,36 @@ export default function Portfolio() {
                             <i className="fas fa-play"></i> Live Demo*
                             </a>
                         </div>
-                        
+                        <hr/>
+                        <br/>
+                        <h4 className ="ironhackTitle">Ironhack</h4>
+                        <h4 className="projectTitle"> Project 3: Recipez</h4>
+                        <Image 
+                        className="screenShot"
+                        src='/RecipezScreenShot.png'
+                        alt='icon' 
+                        width={3524 /4}
+                        height={1884 /4}
+                        />
+                        <div className="projectLinks">
+                            <a href="https://github.com/kpla001/Ironhack-Project-3" 
+                            className="githubLink">
+                            <i className="fas fa-code-branch"></i> Github
+                            </a>
+                            <a href="https://ironhack-recipez.netlify.app" 
+                            className="demoLink">
+                            <i className="fas fa-play"></i> Live Demo*
+                            </a>
+                        </div>
+                        <br/>
+                        <br/>
 
                     </div>
                     </main>
+                </div>
+                <div href="https://github.com/kpla001/kylepla.com" className="footer">
+                    *Live Demo best viewed on desktop{' '}
+                    <i className="fas fa-desktop"></i>
                 </div>
             </article>
 
