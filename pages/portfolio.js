@@ -15,7 +15,7 @@ export default function Portfolio() {
 
 
             </Head>
-            <body id="portfolioPage" className="portfolioPage">
+            <article id="portfolioPage" className="portfolioPage">
                 <div className="portfolioMain">
                     <section className="portfolioHeader">
                         <h1 className="portfolioTitle">Projects</h1>
@@ -39,7 +39,7 @@ export default function Portfolio() {
                     </div>
                     </main>
                 </div>
-            </body>
+            </article>
 
             </div>
     )
