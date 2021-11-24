@@ -152,7 +152,7 @@ main {
   line-height: 1.5rem;
   background-color: #fafafa;
   color: black;
-  box-shadow: 0px 8px 8px black;
+  box-shadow: 0px 8px 8px rgba(27, 27, 27, 0.664);
 }
 
 #landing-page .link {
@@ -196,22 +196,22 @@ main {
   border-color: #fff;
 }
 
-.resume {
-  background-color: #09d3d3;
-  color: #fff;
-}
-
-.portfolio {
-  background-color: #63e8b9;
-  color: #fff;
-}
-
 .email {
   background-color: #ea4335;
   color: #fff;
   i {
     color: #fff;
   }
+}
+
+.resume {
+  background-color: #2164f3;
+  color: #fff;
+}
+
+.portfolio {
+  background-color: #f4b400;
+  color: #fff;
 }
 
 .instagram {

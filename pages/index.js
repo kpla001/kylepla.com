@@ -57,6 +57,11 @@ export default function Home() {
 
         <div className="links">
             <ul>
+              <li className="email">
+                <a href="mailto:kyle.ri.pla@gmail.com" className="link">
+                <i className="far fa-envelope"></i> Send me an e-mail
+                </a>
+              </li>
               <li className="resume">
                 <Link href="/resume" > 
                   <a className="link"> 
@@ -74,11 +79,6 @@ export default function Home() {
                     Browse my portfolio
                   </a>
                 </Link>
-              </li>
-              <li className="email">
-                <a href="mailto:kyle.ri.pla@gmail.com" className="link">
-                <i className="far fa-envelope"></i> Send me an e-mail
-                </a>
               </li>
               <li className="linkedin">
                 <a href="https://linkedin.com/in/kylepla" className="link">

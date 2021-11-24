@@ -62,7 +62,7 @@ export default function Portfolio() {
                                 • DOM Manipulation<br/>
                                 • Object Oriented Programming<br/><br/>
                                 </p>
-                                <b>Background Story:</b> <br/>
+                                <b>Background:</b> <br/>
                                 <p className="subBullets">
                                 • As someone born and raised in Florida, I wanted to incorporate our unofficial State mascot as the centerpiece for my project, seeking to highlight the pollution and human interference that plagues their natural habitats in a tongue-in-cheek manner.
                                 </p>
@@ -97,7 +97,7 @@ export default function Portfolio() {
                                 <p className="subBullets">
                                 • DOM Manipulation<br/>
                                 • Object Oriented Programming<br/>
-                                • Back-end routing<br/>
+                                • Back-end Routing<br/>
                                 • Middleware<br/>
                                 • REST APIs<br/>
                                 • Authorization {'&'} Authentication<br/>
@@ -112,7 +112,7 @@ export default function Portfolio() {
                                 • Handlebars<br/>
                                 <br/>
                                 </p>
-                                <b>Background Story:</b> <br/>
+                                <b>Background:</b> <br/>
                                 <p className="subBullets">
                                 • My project partners and I, having a shared fondness of music, decided to center our project around the popular streaming app Spotify{`'s`} API, which provides millions of data points surrounding the artists, albums, and tracks available through the platform.
                                 </p>
@@ -146,7 +146,7 @@ export default function Portfolio() {
                                 <b>Programming Concepts Employed:</b> <br/>
                                 <p className="subBullets">
                                 • Object Oriented Programming<br/>
-                                • Back-end routing<br/>
+                                • Back-end Routing<br/>
                                 • Middleware<br/>
                                 • REST APIs<br/>
                                 • Authorization {'&'} Authentication<br/>
@@ -165,7 +165,7 @@ export default function Portfolio() {
                                 &nbsp;&nbsp;– React Router<br/>
                                 <br/>
                                 </p>
-                                <b>Background Story:</b> <br/>
+                                <b>Background:</b> <br/>
                                 <p className="subBullets">
                                 • As individuals who enjoy cooking, baking, and general meal preparation, my group identified a common dilemma we all frequently face while looking up new recipes online: many online articles require the reader to sift through impertinent personal narratives by the author{'(s)'}, which takes time away from the actual cooking. This app attempts to solve that problem by removing irrelevant info and providing only what{"'s"} needed through a quick and easy search tool. Then, saving recipes into CookBooks allows for organization and easy access later on.
                                 </p>
