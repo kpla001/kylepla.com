@@ -52,6 +52,22 @@ export default function Portfolio() {
                             <i className="fas fa-play"></i> Live Demo*
                             </a>
                         </div>
+                        <div className="projectDescription">
+                            <h6 className="projectDescription">Description:</h6>
+                            <p className="projectDescription">
+                                An arcade-style game built using simple HTML, CSS, JavaScript and {`<canvas>`}<br/><br/>
+                                <b>Programming Concepts Employed:</b> <br/>
+                                <p className="subBullets">
+                                • Looping<br/>
+                                • DOM Manipulation<br/>
+                                • Object Oriented Programming<br/><br/>
+                                </p>
+                                <b>Background Story:</b> <br/>
+                                <p className="subBullets">
+                                • As someone born and raised in Florida, I wanted to incorporate our unofficial State mascot as the centerpiece for my project, seeking to highlight the pollution and human interference that plagues their natural habitats, in a tongue-in-cheek manner.
+                                </p>
+                            </p> 
+                        </div>
                         <hr/>
                         <br/>
                         <h4 className ="ironhackTitle">Ironhack</h4>

@@ -79,8 +79,48 @@ main {
   min-width: 100vw;
 }
 
+div.projectDescription {
+  width: 90%;
+  padding: 0.75rem;
+  margin: 0.1rem 0 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 15px;
+  background-color: #2e2b2b91;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+h6.projectDescription {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem 0 0.25rem 0.75rem;
+  text-align: left;
+  place-self: center;
+  border-style: none;
+}
+
+p.projectDescription {
+  font-size: 0.9rem;
+  font-weight: 0;
+  margin: 0.3rem 0 0 0;
+  padding: 0.75rem 0 0.75rem 0.75rem;
+  line-height: 1.1rem;
+  text-align: left;
+  place-self: center;
+  border-style: none;
+}
+
+p.subBullets {
+  font-size: 0.8rem;
+  font-weight: 0;
+  padding: 0 0 0 0.75rem;
+  line-height: 0.9rem;
+  text-align: left;
+  place-self: center;
+  border-style: none;
+}
+
 div.projectLinks {
-  margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 1.5em 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -89,12 +129,12 @@ div.projectLinks {
 
 #portfolio-page .githubLink {
   background-color: #171515;
+  color: #fff;
   font-weight: bold;
   padding: 1em 1.9em 1em 1.9em;
   text-decoration: none;
   border-radius: 7px;
   transition: ease all 0.3s;
-  color: #fff;
 }
 
 #portfolio-page .demoLink {
@@ -105,6 +145,19 @@ div.projectLinks {
   border-radius: 7px;
   transition: ease all 0.3s;
   color: inherit;
+}
+
+.githubLink:hover,
+.demoLink:hover,
+.githubLink:focus,
+.demoLink:focus,
+.githubLink:active,
+.demoLink:active {
+  box-shadow: 0px 6px 6px rgba(19, 19, 19, 0.87);
+  transform: translateY(-0.25em);
+  color: #fff;
+  border: 1px solid;
+  border-color: #fff;
 }
 
 #portfolio-page hr {
