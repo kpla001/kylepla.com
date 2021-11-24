@@ -142,7 +142,7 @@ export default function Portfolio() {
                         <div className="projectDescription">
                             <h6 className="projectDescription">Description:</h6>
                             <p className="projectDescription">
-                                A food-based web and app query tool that allows users to search for recipes by name or included ingredients, with an option to save them into {'"CookBooks"'}<br/><br/>
+                                A food-based web app and query tool that allows users to search for recipes by name or included ingredients, with an option to save them into {'"CookBooks"'}<br/><br/>
                                 <b>Programming Concepts Employed:</b> <br/>
                                 <p className="subBullets">
                                 • Object Oriented Programming<br/>
