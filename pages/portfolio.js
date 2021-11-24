@@ -39,8 +39,8 @@ export default function Portfolio() {
                         className="screenShot"
                         src='/FreeLunchScreenShot.png'
                         alt='icon' 
-                        width={3524 /4}
-                        height={1880 /4}
+                        width={3524 /3}
+                        height={1880 /3}
                         />
                         <div className="projectLinks">
                             <a href="https://github.com/kpla001/Free-Lunch-Ironhack-Game" 
@@ -76,8 +76,8 @@ export default function Portfolio() {
                         className="screenShot"
                         src='/SongBirdScreenShot.png'
                         alt='icon' 
-                        width={3524 /4}
-                        height={1884 /4}
+                        width={3524 /3}
+                        height={1884 /3}
                         />
                         <div className="projectLinks">
                             <a href="https://github.com/rgonzalez09/song-bird" 
@@ -126,8 +126,8 @@ export default function Portfolio() {
                         className="screenShot"
                         src='/RecipezScreenShot.png'
                         alt='icon' 
-                        width={3524 /4}
-                        height={1884 /4}
+                        width={3524 /3}
+                        height={1884 /3}
                         />
                         <div className="projectLinks">
                             <a href="https://github.com/kpla001/Ironhack-Project-3" 
@@ -171,9 +171,47 @@ export default function Portfolio() {
                                 </p>
                             </p> 
                         </div>
+                        <hr/>
                         <br/>
                         <br/>
-
+                        <h4 className="projectTitle">kylepla.com</h4>
+                        <Image 
+                        className="screenShot"
+                        src='/kyleplaScreenShot.png'
+                        alt='icon' 
+                        width={3524 /3}
+                        height={1880 /3}
+                        />
+                        <div className="projectLinks">
+                            <a href="https://github.com/kpla001/kylepla.com" 
+                            className="githubLink">
+                            <i className="fas fa-code-branch"></i> Github
+                            </a>
+                            <a href="https://www.kylepla.com" 
+                            className="demoLink">
+                            <i className="fas fa-play"></i> Live Demo
+                            </a>
+                        </div>
+                        <div className="projectDescription">
+                            <h6 className="projectDescription">Description:</h6>
+                            <p className="projectDescription">
+                                A responsive personal website for myself and link tree alternative, containing various internal and external links to each of my professional and social media profiles, on one single page. <br/><br/>
+                                <b>Programming Concepts Employed:</b> <br/>
+                                <p className="subBullets">
+                                • Object Oriented Programming<br/>
+                                • JavaScript Frameworks<br/>
+                                • SPAs<br/>
+                                <br/>
+                                </p>
+                                <b>Technologies Used:</b> <br/>
+                                <p className="subBullets">
+                                • React.JS<br/>
+                                • Next.JS<br/>
+                                • SASS<br/>
+                                </p>
+                            </p> 
+                        </div>
+                        <br/>
                     </div>
                     </main>
                 </div>
