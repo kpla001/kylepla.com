@@ -100,6 +100,8 @@ export default function Portfolio() {
                                 • Back-end routing<br/>
                                 • Middleware<br/>
                                 • REST APIs<br/>
+                                • Authorization {'&'} Authentication<br/>
+                                • CRUD Model<br/>
                                 <br/>
                                 </p>
                                 <b>Technologies Used:</b> <br/>
@@ -136,6 +138,38 @@ export default function Portfolio() {
                             className="demoLink">
                             <i className="fas fa-play"></i> Live Demo*
                             </a>
+                        </div>
+                        <div className="projectDescription">
+                            <h6 className="projectDescription">Description:</h6>
+                            <p className="projectDescription">
+                                A food-based web and app query tool that allows users to search for recipes by name or included ingredients, with an option to save them into {'"CookBooks"'}<br/><br/>
+                                <b>Programming Concepts Employed:</b> <br/>
+                                <p className="subBullets">
+                                • Object Oriented Programming<br/>
+                                • Back-end routing<br/>
+                                • Middleware<br/>
+                                • REST APIs<br/>
+                                • Authorization {'&'} Authentication<br/>
+                                • CRUD Model<br/>
+                                • JavaScript Frameworks<br/>
+                                <br/>
+                                </p>
+                                <b>Technologies Used:</b> <br/>
+                                <p className="subBullets">
+                                • Node.JS<br/>
+                                • Express.JS<br/>
+                                • MongoDB<br/>
+                                • React.JS <br/>
+                                &nbsp;&nbsp;– Hooks<br/>
+                                &nbsp;&nbsp;– Functional {'&'} Class Components <br/>
+                                &nbsp;&nbsp;– React Router<br/>
+                                <br/>
+                                </p>
+                                <b>Background Story:</b> <br/>
+                                <p className="subBullets">
+                                • As individuals who enjoy cooking, baking, and general meal preparation, my group identified a common dilemma we all frequently face while looking up new recipes online: many online articles require the reader to sift through impertinent personal narratives by the author{'(s)'}, which takes time away from the actual cooking. This app attempts to solve that problem by removing irrelevant info and providing only what{"'s"} needed through a quick and easy search tool. Then, saving recipes into CookBooks allows for organization and easy access later on.
+                                </p>
+                            </p> 
                         </div>
                         <br/>
                         <br/>
