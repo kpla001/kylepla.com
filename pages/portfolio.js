@@ -64,7 +64,7 @@ export default function Portfolio() {
                                 </p>
                                 <b>Background Story:</b> <br/>
                                 <p className="subBullets">
-                                • As someone born and raised in Florida, I wanted to incorporate our unofficial State mascot as the centerpiece for my project, seeking to highlight the pollution and human interference that plagues their natural habitats, in a tongue-in-cheek manner.
+                                • As someone born and raised in Florida, I wanted to incorporate our unofficial State mascot as the centerpiece for my project, seeking to highlight the pollution and human interference that plagues their natural habitats in a tongue-in-cheek manner.
                                 </p>
                             </p> 
                         </div>
@@ -88,6 +88,33 @@ export default function Portfolio() {
                             className="demoLink">
                             <i className="fas fa-play"></i> Live Demo*
                             </a>
+                        </div>
+                        <div className="projectDescription">
+                            <h6 className="projectDescription">Description:</h6>
+                            <p className="projectDescription">
+                                A music-based social media platform and query tool made with HTML, CSS, and simple JavaScript<br/><br/>
+                                <b>Programming Concepts Employed:</b> <br/>
+                                <p className="subBullets">
+                                • DOM Manipulation<br/>
+                                • Object Oriented Programming<br/>
+                                • Back-end routing<br/>
+                                • Middleware<br/>
+                                • REST APIs<br/>
+                                <br/>
+                                </p>
+                                <b>Technologies Used:</b> <br/>
+                                <p className="subBullets">
+                                • Node.JS<br/>
+                                • Express.JS<br/>
+                                • MongoDB<br/>
+                                • Handlebars<br/>
+                                <br/>
+                                </p>
+                                <b>Background Story:</b> <br/>
+                                <p className="subBullets">
+                                • My project partners and I, having a shared fondness of music, decided to center our project around the popular streaming app Spotify{`'s`} API, which provides millions of data points surrounding the artists, albums, and tracks available through the platform.
+                                </p>
+                            </p> 
                         </div>
                         <hr/>
                         <br/>
