@@ -35,7 +35,7 @@ export default function Resume() {
                     <li><a href="mailto:kyle.ri.pla@gmail.com">kyle.ri.pla@gmail.com</a></li>
                     <li>
                     <li>(305)523-9744 </li>
-                    <li> Miami, Florida 33187 </li>
+                    <li> Miami, Florida </li>
                     <a href="https://www.linkedin.com/in/kylepla">linkedin.com/in/kylepla</a></li>
                 </ul>
             </div>
@@ -50,7 +50,7 @@ export default function Resume() {
                     </div>
                     
                     <div className="sectionContent">
-                        <p>Full-stack web developer with a background in banking and a passion for tech, continuously looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to to help organizations drive client conversions via website engagement, as well as simplify their internal business procedures through effective software implementation.
+                        <p>Full-stack web developer with a background in banking and a passion for tech, continuously looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to help organizations further drive client conversions via website engagement, as well as to simplify internal business practices through efficient and effective software implementation.
                         </p>
                     </div>
                 </article>
