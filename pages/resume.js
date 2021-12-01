@@ -50,14 +50,94 @@ export default function Resume() {
                     </div>
                     
                     <div className="sectionContent">
-                        <p>Full-stack web developer with a background in banking and a passion for tech, continuously looking to expand expertise in web-based programming languages, frameworks, and applications. My objective is to help organizations further drive client conversions via website engagement, as well as to simplify internal business practices through efficient and effective software implementation.
+                        <p>Full-stack web developer with a background in banking and a passion for tech, continuously looking to
+                            expand expertise in web-based programming languages, frameworks, and applications. My objective is to
+                            help organizations further drive client conversions via website engagement, as well as to simplify internal
+                            business practices through efficient and effective software implementation.
                         </p>
                     </div>
                 </article>
                 <div className="clear"></div>
             </section>
             
+            <section>
+                <div className="sectionTitle">
+                    <h1>Education</h1>
+                </div>
+                
+                <div className="sectionContent">
+                <article>
+                        <h2>Web Development - Bootcamp Graduate </h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="hhttps://www.ironhack.com/en">
+                               {`Ironhack `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">June 2021 – November 2021</p>
+                        <p>
+                            Completed 400 hour core curriculum focused on the JavaScript MERN stack: MongoDB, Express.js, React.js,
+                            and Node.js 
+                        </p>
+                        <br/>
+                    </article>
+                    <article>
+                        <h2>Master of Science (M.S.), Finance</h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="https://www.fiu.edu">
+                                {`Florida International University `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">August 2016 – August 2017</p>
+                        <p>
+                        Graduate degree program focused on applied quantitative financial methodologies, corporate finance,
+                        financial markets {'&'} securities, and commercial banking
+                        </p>
+                        <br/>
+                    </article>
+                    
+                    <article>
+                        <h2>{`Bachelor's of Business Administration (B.B.A.)`}</h2>
+                        <h4>
+                            <a className="resumeOrganizations" href="https://www.fiu.edu">
+                            {`Florida International University `}
+                            </a>
+                            {`▪  Miami, Florida`}
+                        </h4>
+                        <p className="subDetails">August 2012 – May 2016</p>
+                        <p>Majors: Finance, Marketing </p>
+                        <br/>
+                    </article>
+                </div>
+                <div className="clear"></div>
+            </section>
             
+            <section>
+                <div className="sectionTitle">
+                    <h1>Key Skills</h1>
+                </div>
+                
+                <div className="sectionContent">
+                    <ul className="keySkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>NextJS</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>Object Oriented Programming {"(OOP)"}</li>
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>Middleware</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+                <div className="clear"></div>
+            </section>
             <section>
                 <div className="sectionTitle">
                     <h1>Experience</h1>
@@ -133,75 +213,6 @@ export default function Resume() {
                 </div>
                 <div className="clear"></div>
             </section>
-            
-            
-            <section>
-                <div className="sectionTitle">
-                    <h1>Key Skills</h1>
-                </div>
-                
-                <div className="sectionContent">
-                    <ul className="keySkills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>ReactJS</li>
-                        <li>NodeJS</li>
-                        <li>ExpressJS</li>
-                        <li>NextJS</li>
-                        <li>MongoDB</li>
-                        <li>PostgreSQL</li>
-                    </ul>
-                </div>
-                <div className="clear"></div>
-            </section>
-            
-            
-            <section>
-                <div className="sectionTitle">
-                    <h1>Education</h1>
-                </div>
-                
-                <div className="sectionContent">
-                <article>
-                        <h2>Web Development - Bootcamp Graduate </h2>
-                        <h4>
-                            <a className="resumeOrganizations" href="hhttps://www.ironhack.com/en">
-                               {`Ironhack `}
-                            </a>
-                            {`▪  Miami, Florida`}
-                        </h4>
-                        <p className="subDetails">June 2021 – November 2021</p>
-                        <br/>
-                    </article>
-                    <article>
-                        <h2>Master of Science (M.S.), Finance</h2>
-                        <h4>
-                            <a className="resumeOrganizations" href="https://www.fiu.edu">
-                                {`Florida International University `}
-                            </a>
-                            {`▪  Miami, Florida`}
-                        </h4>
-                        <p className="subDetails">August 2016 – August 2017</p>
-                        <br/>
-                    </article>
-                    
-                    <article>
-                        <h2>{`Bachelor's of Business Administration (B.B.A.)`}</h2>
-                        <h4>
-                            <a className="resumeOrganizations" href="https://www.fiu.edu">
-                            {`Florida International University `}
-                            </a>
-                            {`▪  Miami, Florida`}
-                        </h4>
-                        <p className="subDetails">August 2012 – May 2016</p>
-                        <p>Majors: Finance, Marketing </p>
-                        <br/>
-                    </article>
-                </div>
-                <div className="clear"></div>
-            </section>
-            
         </div>
     </div>
     </body>
