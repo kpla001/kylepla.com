@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -23,9 +22,6 @@ export default function Portfolio() {
         />
       </Head>
       <article id="portfolioPage" className="portfolioPage">
-        {/* <a href="https://www.kylepla.com/" className="homeButton">
-                    <i className="fas fa-home"></i>
-                </a> */}
         <div className="portfolioMain">
           <section className="portfolioHeader">
             <h1 className="portfolioTitle">Portfolio</h1>
@@ -125,7 +121,8 @@ export default function Portfolio() {
                     • Middleware
                     <br />
                     • REST APIs
-                    <br />• Authorization {"&"} Authentication
+                    <br />
+                    • Authorization & Authentication
                     <br />
                     • CRUD Model
                     <br />
